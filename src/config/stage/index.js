@@ -24,7 +24,7 @@ let homeRouter = [
     inNav: true,
     icon: 'iconfont icon-rizhiguanli',
     order: 1,
-    right: ['查询所有日志'],
+    permission: ['查询所有日志'],
   },
   {
     title: '404',

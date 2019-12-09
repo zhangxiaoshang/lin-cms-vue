@@ -59,6 +59,7 @@ export default {
           this.resetForm(formName)
         }
       } catch (error) {
+        this.$message.error(error.data.msg)
         console.log(error)
       }
     },

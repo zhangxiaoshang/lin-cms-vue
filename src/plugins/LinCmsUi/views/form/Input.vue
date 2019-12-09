@@ -50,14 +50,18 @@
         <el-row>
           <el-col :span="12">
             <el-input placeholder="请输入内容" size="medium" v-model="input4">
-              <template slot="prepend">Http://</template>
+              <template slot="prepend"
+                >Http://</template
+              >
             </el-input>
           </el-col>
         </el-row>
         <el-row style="margin-top:20px;margin-bottom:20px;">
           <el-col :span="12">
             <el-input placeholder="请输入内容" size="medium" v-model="input5">
-              <template slot="append">.com</template>
+              <template slot="append"
+                >.com</template
+              >
             </el-input>
           </el-col>
         </el-row>

@@ -32,10 +32,7 @@ export default {
   },
   data() {
     return {
-      tableColumn: [
-        { prop: 'title', label: '书名' },
-        { prop: 'author', label: '作者' },
-      ],
+      tableColumn: [{ prop: 'title', label: '书名' }, { prop: 'author', label: '作者' }],
       tableData: [],
       operate: [],
       showEdit: false,

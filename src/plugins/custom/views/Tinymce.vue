@@ -9,7 +9,11 @@
 import Tinymce from '@/components/base/tinymce'
 
 export default {
-  name: 'ImgsUploadStage1',
+  data() {
+    return {
+      text: 'this is default content',
+    }
+  },
   components: {
     Tinymce,
   },

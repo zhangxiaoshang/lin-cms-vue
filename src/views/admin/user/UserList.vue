@@ -248,10 +248,7 @@ export default {
   async created() {
     await this.getAdminUsers()
     this.getAllGroups()
-    this.tableColumn = [
-      { prop: 'username', label: '名称' },
-      { prop: 'group_name', label: '所属分组' },
-    ] // 设置表头信息
+    this.tableColumn = [{ prop: 'username', label: '名称' }, { prop: 'group_name', label: '所属分组' }] // 设置表头信息
     this.operate = [
       { name: '编辑', func: 'handleEdit', type: 'primary' },
       { name: '删除', func: 'handleDelete', type: 'danger' },
